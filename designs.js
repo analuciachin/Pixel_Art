@@ -1,7 +1,7 @@
 document.getElementById('sizePicker').addEventListener('submit', function(event) {
     // When size is submitted by the user, call makeGrid()
-    makeGrid();
     event.preventDefault();
+    makeGrid();
 })
  
 document.getElementById('pixel_canvas').addEventListener('mousedown', function(event) {
